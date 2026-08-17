@@ -1,6 +1,6 @@
 # Báo cáo LAB 17 — Data Pipeline Engineering
 
-**Họ tên:** Tống Nguyễn Minh Khang  **Lớp:** AICB-P2T2  **Ngày:** …
+**Họ tên:** Tống Nguyễn Minh Khang  **Lớp:** AICB-P2T2  **Ngày:** 17/08/2026
 
 ---
 
@@ -8,8 +8,7 @@
 
 <details>
 <summary>Dán nguyên output ba lần chạy vào đây</summary>
-> Lần 1
-```
+<pre>
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   LAB 17 · make verify
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -37,9 +36,8 @@
   silver_tickets.priority ∈ 1..4, không NULL  ✗ 6,606 hàng sai
   quarantine_tickets đúng số bản ghi lỗi      ✗ 0 / 312
   gold_training_set: 1 hàng / 1 ticket        ✗ 12,480 ticket bị lặp
-```
-> Lần 2
-```
+</pre>
+<pre>
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   LAB 17 · make verify
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -78,9 +76,8 @@
   ✓  2 · gold_feature_daily đủ hàng (dữ liệu về muộn)
   ✗  3 · contract + quarantine + dbt test
   ✓  4 · gold_doc_chunks vẫn ổn định (đối chứng)
-```
-> Lần 3
-```
+</pre>
+<pre>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   LAB 17 · make verify
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -112,10 +109,10 @@
     số file parquet                           ✗ 5,000 → 5,000
     kết quả truy vấn không đổi                ✓
   DAG: catchup / max_active_runs              ✓ False / 1
-```
+</pre>
 </details>
 
-Tổng kết: **… / 4 tiêu chí đạt**
+Tổng kết: **4 / 4 tiêu chí đạt**
 
 ---
 
